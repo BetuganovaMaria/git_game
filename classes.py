@@ -8,6 +8,9 @@ r_circle = 20
 
 
 class Board:
+    """
+    это основной игровой класс - доска
+    """
     def __init__(self, cells):
         self.x = cells
         self.y = cells
